@@ -113,5 +113,5 @@ class DockerSearchServer {
     }
 }
 
-const server = new DockerSearchServer({ cacheIntervalInSeconds: 60 * 30, sources: [{ host: "10.20.6.10", port: 30000, secure: false }] });
+const server = new DockerSearchServer({ cacheIntervalInSeconds: 60 * 30, sources: [{ host: "10.20.6.10", port: 30000, secure: false, sort:"desc" }] });
 server.start();

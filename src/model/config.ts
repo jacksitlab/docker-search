@@ -1,5 +1,5 @@
 export interface Config {
-    sources: { host: string; secure: boolean; port?: number }[];
+    sources: { host: string; secure: boolean; port?: number , sort?:"asc"|"desc"}[];
     cacheIntervalInSeconds: number;
 }
 //"http://10.20.6.10:30000"
